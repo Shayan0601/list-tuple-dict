@@ -1,0 +1,16 @@
+# Assigning elements to different lists
+list1 = [1, 2, 3, 4, 5]
+list2 = ["a", "b", "c"]
+
+# Accessing elements from a tuple
+mytuple = ("C", "C++", "Pyhton")
+print(mytuple[2])
+
+# Deleting from dictionary
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict.pop("model")
+print(thisdict)
